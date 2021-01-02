@@ -11,8 +11,32 @@
 .container > div {
 		width: 20px;
 		height: 20px;
-		background-color: #123456;
+		background-color: #fff;
+		border-radius: 50%;
+	
 
+
+
+}
+
+.square {
+		animation-name: ChangeColor;
+		animation-duration: 3s;
+
+
+}
+
+@keyframes ChangeColor {
+
+		from {background-color: #532111;}
+		to{	
+			height: 100px;
+			width: 100px;
+			background-color: green;
+		}
+		
+		border-radius: 50%;
+		border: 8px solid black;
 
 
 }
