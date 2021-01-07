@@ -1,2 +1,1 @@
 
-console.log("tudo certo");
