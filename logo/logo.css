@@ -1,0 +1,33 @@
+.container{
+		display: flex;
+		justify-content:  center;
+		margin-top: 200px;
+		font-size: 200px;
+		color: hsl(357, 33%, 86%);
+
+}
+
+.container > i:hover {
+		animation-name: changeProperty;
+		animation-duration: 4s;
+
+
+}
+
+@keyframes changeProperty{
+
+		from{
+				transform: rotate(360deg);
+		
+		
+		}
+
+		to{
+				transform: rotate(0deg);
+				color: hsl(21, 0%, 25%);
+		
+		}
+
+
+
+}
